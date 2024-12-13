@@ -144,7 +144,7 @@ exports.updateReviewByUser = (req, res) => {
         user_id,
         rating,
         comment,
-        created_at: review.created_at, // Tetap gunakan waktu pembuatan asli
+        created_at: review.created_at,
       });
     });
   });
